@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  background-color: rgb(14, 14, 14);
+  color: white;
+  min-height: 100vh;
+}
+
+header,
+main {
+  padding: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+main {
+  display: flex;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media (max-width: 586px) {
+  main {
+    flex-direction: column;
+  }
+  #unselected {
+    width: 100%;
+  }
+}

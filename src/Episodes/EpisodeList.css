@@ -1,0 +1,30 @@
+li {
+  list-style: none;
+}
+
+.episode-list h2 {
+  padding: 0 0 1.5rem 0;
+}
+
+ul li {
+  border-bottom: 1px solid #7676766d;
+  padding: 0.5em 0;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+.episode-list {
+  width: 50%;
+}
+
+.episode-list li:hover {
+  cursor: pointer;
+  background-color: #7676766d;
+}
+
+.episode-list ul {
+  padding: 0.5em;
+  overflow: hidden;
+}
